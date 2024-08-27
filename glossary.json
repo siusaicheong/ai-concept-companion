@@ -1,0 +1,405 @@
+{
+    "entries" : [
+      {"id":"1.1","headword":"artificial intelligence", "explanation":"Artificial Intelligence (AI) is the ability of machines to perform tasks that would normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI systems can learn from data, adjust to new inputs, and improve their performance over time."},
+      {"id":"1.2","headword":"machine learning", "explanation":"Machine Learning (ML) is a subset of AI that involves the development of algorithms that allow computers to learn from and make predictions or decisions based on data, without being explicitly programmed. ML models improve by analyzing data and identifying patterns, which they can then use to make predictions on new data."},
+      {"id":"1.3","headword":"deep learning", "explanation":"Deep Learning is a subset of ML that uses neural networks, particularly deep neural networks, to model and learn complex patterns in data. These neural networks have multiple layers through which data passes, allowing them to learn intricate representations of the data."},
+      {"id":"1.4","headword":"Generative AI", "explanation":"Generative AI refers to a class of AI systems that can generate new data or artifacts that resemble the patterns found in the original data. This includes the creation of images, sounds, text, and even more complex structures like 3D models. Generative AI models are often used in fields like art, design, and entertainment."},
+      {"id":"1.5","headword":"Large Language Models (LLM)", "explanation":"Large Language Models (LLM) are AI systems that have been trained on large datasets of text, enabling them to generate human-like text, answer questions, translate languages, and perform other language-related tasks. They are typically based on deep learning architectures like Transformers and are capable of understanding and generating complex language structures."},
+      {"id":"1.6","headword":"Reinforcement Learning", "explanation":"Reinforcement Learning (RL) is a type of ML where an agent learns to make decisions by performing actions in an environment and receiving feedback in the form of rewards or penalties. The goal is to maximize the cumulative reward over time by learning an optimal policy, which is a mapping from states to actions."},
+      {"id":"1.7","headword":"Supervised Learning", "explanation":"Supervised Learning is a ML approach where the model is trained on a labeled dataset, meaning that each data point comes with an output label. The model learns to map input features to output labels and can then be used to predict labels for new, unseen data."},
+      {"id":"1.8","headword":"Unsupervised Learning", "explanation":"Unsupervised Learning involves training models on unlabeled data. The goal is to discover hidden patterns or structures within the data without any prior knowledge of the data's specific outputs. Clustering, dimensionality reduction, and anomaly detection are common applications of unsupervised learning."},
+      {"id":"1.9","headword":"Semi-Supervised Learning", "explanation":"Semi-Supervised Learning (SSL) combines labeled and unlabeled data to train models. The idea is to leverage the large amount of unlabeled data to improve the learning process while using a smaller amount of labeled data. SSL is particularly useful when labeled data is scarce and expensive to obtain."},
+      {"id":"1.10","headword":"Transfer Learning", "explanation":"Transfer Learning involves transferring knowledge from a model that has been trained on a similar task to a new task. Pre-trained models, often deep neural networks, are used and fine-tuned on a specific task using a limited amount of labeled data from that task."},
+      {"id":"1.11","headword":"Neural Networks", "explanation":"Neural Networks are computing systems inspired by the biological neural networks that constitute animal brains. They are made up of interconnected nodes (artificial neurons) that work together to process inputs and produce outputs, learning to perform tasks through adjusting the strengths of the connections between neurons."},
+      {"id":"1.12","headword":"Perceptrons", "explanation":"A Perceptron is a simple type of artificial neural network used for binary classification. It consists of an input layer, a single hidden layer, and an output layer. Perceptrons learn by adjusting the weights associated with the connections between the layers, and they can only be trained on linearly separable data."},
+      {"id":"1.13","headword":"Decision Trees", "explanation":"Decision Trees are a type of supervised learning model that operates by segmenting data into smaller and smaller subsets based on the values of a set of features. Each node in the tree corresponds to a feature, and branches represent possible values for that feature. The final leaf nodes provide class labels or continuous output values."},
+      {"id":"1.14","headword":"Random Forests", "explanation":"Random Forests are an ensemble learning method that operates by combining multiple decision trees to reduce the risk of overfitting. During training, a random forest considers a random subset of features at each split, which helps in generalizing better to new, unseen data."},
+      {"id":"1.15","headword":"K-Nearest Neighbors (KNN)", "explanation":"K-Nearest Neighbors (KNN) is a supervised learning algorithm for classification and regression. It stores all available cases and classifies new cases based on a similarity measure (e.g., distance function) between the new case and all the existing cases. The most common similarity measure is the Euclidean distance."},
+      {"id":"1.16","headword":"Support Vector Machines (SVM)", "explanation":"Support Vector Machines (SVM) are supervised learning models used for classification and regression analysis. The algorithm builds a hyperplane in a high-dimensional space that optimally separates the data into classes. Support vectors are the data points that are closest to the hyperplane and crucial for the SVM's decision boundary."},
+      {"id":"1.17","headword":"Bayesian Networks", "explanation":"Bayesian Networks are probabilistic graphical models that represent a set of variables and their conditional dependencies via a directed acyclic graph. Each node in the graph represents a random variable, and the edges represent conditional dependencies among the variables. Bayesian Networks are used for inference and decision-making under uncertainty."},
+      {"id":"1.18","headword":"Markov Models", "explanation":"Markov Models are statistical models based on the Markov property, which states that the future state of a system depends only on its present state and not on its entire history. They are used in various applications, including automatic speech recognition, natural language processing, and financial time series analysis."},
+      {"id":"1.19","headword":"Genetic Algorithms", "explanation":"Genetic Algorithms (GA) are a type of evolutionary computation inspired by natural selection. They use techniques such as mutation, crossover, and selection to evolve solutions to optimization and search problems. GA's are especially useful for problems that are difficult to solve with traditional optimization techniques."},
+      {"id":"1.20","headword":"Natural Language Processing (NLP)", "explanation":"Natural Language Processing (NLP) is a subfield of AI and linguistics focused on the interaction between computers and human languages. NLP deals with the storage, processing, and analysis of large amounts of natural language data, enabling tasks such as language translation, text summarization, sentiment analysis, and chatbots."},
+      {
+        "id": "2.1",
+        "headword": "Object Detection",
+        "explanation": "Object detection is a type of computer vision task that involves identifying and locating objects within an image or video. It is commonly used in applications such as image search, surveillance, and autonomous vehicles. Object detection models are typically trained on large datasets of annotated images, where each image has been labeled with the locations and types of objects it contains. Common object detection frameworks include R-CNN, Fast R-CNN, Faster R-CNN, YOLO (You Only Look Once), and SSD (Single Shot MultiBox Detector)."
+      },
+      {
+        "id": "2.2",
+        "headword": "Machine Translation",
+        "explanation": "Machine translation is the use of computer programs to translate text from one natural language to another. This technology is crucial for enabling communication across language barriers and is used in various applications such as global business, tourism, and international diplomacy. Machine translation systems can be rule-based, based on statistical models, or rely on neural networks, with the latter being the most advanced and accurate approach. Examples of machine translation systems include Google Translate, Microsoft Translator, and Facebook's fairseq."
+      },
+      {
+        "id": "2.3",
+        "headword": "Voice Cloning",
+        "explanation": "Voice cloning is the process of creating a digital replica of a person's voice, capturing its unique characteristics such as pitch, timbre, and intonation. This technology is used in various applications, including voice assistants, dubbing, and creating personalized audio content. Voice cloning typically involves training a neural network on a dataset of audio recordings from the target speaker, which then generates new audio samples in the cloned voice. Examples of voice cloning systems include Google's WaveNet, Microsoft's SpeakerNet, and Descript's Overdub."
+      },
+      {
+        "id": "2.4",
+        "headword": "Speech Recognition",
+        "explanation": "Speech recognition, also known as voice recognition, is the ability of computer systems to identify and understand human speech. This technology is used in various applications such as virtual assistants, transcription services, and customer service systems. Speech recognition models are typically trained on large datasets of audio recordings, along with their corresponding transcripts. These models use machine learning algorithms, often based on neural networks, to convert spoken words into text. Examples of speech recognition systems include Google's Speech-to-Text, Apple's Siri, and Amazon's Alexa."
+      },
+      {
+        "id": "2.5",
+        "headword": "Text Generation",
+        "explanation": "Text generation is the process of creating new text based on patterns and structures learned from a large corpus of text. This technology is used in various applications such as content creation, chatbots, and language translation. Text generation models are typically based on neural networks, such as the Generative Pre-trained Transformer (GPT) and its successors. These models are trained on massive text corpora to learn the statistical properties of language and can generate coherent and contextually appropriate text. Examples of text generation systems include OpenAI's GPT-3, and Microsoft's Language Model for Dialogue Applications (LMDA)."
+      },
+      {
+        "id": "2.6",
+        "headword": "Text Summarization",
+        "explanation": "Text summarization is the process of reducing a large body of text into a shorter version that preserves the most important points. This technology is used in various applications such as news media, academic research, and customer support. Text summarization models typically use machine learning algorithms to analyze the content and structure of the source text, identifying the most relevant information. These models can generate abstractive or extractive summaries, or a combination of both. Examples of text summarization systems include Google's BERT, and the extractive summarization tool, Sumy."
+      },
+      {
+        "id": "2.7",
+        "headword": "Image Classification",
+        "explanation": "Image classification is the process of assigning a label or category to an image based on its content. This technology is used in various applications such as photo organization, medical imaging, and surveillance. Image classification models are typically trained on large datasets of labeled images, where each image has been manually annotated with one or more labels. These models use machine learning algorithms, often based on neural networks, to analyze the visual content of the images and make predictions. Examples of image classification systems include Google's Inception, and the open-source library, TensorFlow."
+      },
+      {
+        "id": "2.8",
+        "headword": "Natural Language Understanding (NLU)",
+        "explanation": "Natural Language Understanding (NLU) is the ability of computer systems to understand the meaning, context, and sentiment behind human language. This technology is used in various applications such as virtual assistants, chatbots, and natural language interfaces for databases. NLU models are typically based on neural networks, such as the Bidirectional Encoder Representations from Transformers (BERT) and its successors. These models are trained on large corpora of text, learning the context and meaning of words and phrases, and can perform tasks such as named entity recognition, sentiment analysis, and question answering. Examples of NLU systems include Google's BERT, and Microsoft's Language Understanding Intelligent Service (LUIS)."
+      },
+      {
+        "id": "2.9",
+        "headword": "Natural Language Generation (NLG)",
+        "explanation": "Natural Language Generation (NLG) is the process of creating natural language text from structured data or a formal representation of knowledge. This technology is used in various applications such as content creation, news reporting, and personal assistants. NLG models are typically based on neural networks, such as the Transformer and its successors. These models are trained on large corpora of text, learning the patterns and structures of language, and can generate coherent and contextually appropriate text from input data. Examples of NLG systems include Google's AutoML, and the open-source library, Rasa."
+      },
+      {
+        "id": "2.10",
+        "headword": "Sentiment Analysis",
+        "explanation": "Sentiment analysis, also known as opinion mining, is the process of determining the attitude or emotional tone behind a body of text. This technology is used in various applications such as customer service, market research, and social media monitoring. Sentiment analysis models typically use machine learning algorithms to analyze the text, identifying the sentiment (e.g., positive, negative, neutral) and the intensity of the sentiment. These models can be based on neural networks, such as BERT, or traditional machine learning algorithms, such as support vector machines. Examples of sentiment analysis systems include Google's Cloud Natural Language, and the open-source library, TextBlob."
+      },
+      {
+        "id": "2.11",
+        "headword": "Named Entity Recognition (NER)",
+        "explanation": "Named Entity Recognition (NER) is the process of identifying and classifying named entities in text, such as the names of people, organizations, locations, and dates. This technology is used in various applications such as information extraction, data mining, and text analysis. NER models are typically trained on large datasets of annotated text, where each entity has been manually labeled. These models use machine learning algorithms, often based on neural networks, to recognize and classify entities. Examples of NER systems include Google's Cloud Natural Language, and the open-source library, spaCy."
+      },
+      {
+        "id": "2.12",
+        "headword": "Intent Recognition",
+        "explanation": "Intent recognition, also known as intent detection, is the process of identifying the underlying intention or goal behind a user's input, typically in the context of human-computer interaction. This technology is used in various applications such as virtual assistants, chatbots, and interactive voice response systems. Intent recognition models are typically trained on large datasets of user utterances, along with corresponding labels indicating the user's intention. These models use machine learning algorithms, often based on neural networks, to analyze the text and make predictions about the user's intent. Examples of intent recognition systems include Google's Dialogflow, and the open-source library, Rasa."
+      },
+      {
+        "id": "2.13",
+        "headword": "Chatbots and Conversational AI",
+        "explanation": "Chatbots and Conversational AI are systems that enable human-computer interaction through conversations. These systems can understand user inputs, generate appropriate responses, and maintain context over a series of exchanges. Chatbots are used in various applications such as customer service, e-commerce, and personal assistants. Conversational AI models are typically based on neural networks, such as the Transformer and its successors, and can leverage techniques such as natural language understanding and natural language generation. Examples of chatbots and conversational AI systems include Facebook's Wit.ai, and the open-source library, Rasa."
+      },
+      {
+        "id": "2.14",
+        "headword": "Personalized Recommendations",
+        "explanation": "Personalized recommendations are systems that suggest items or content based on a user's preferences, behavior, and other relevant information. This technology is used in various applications such as e-commerce, streaming services, and news platforms. Personalized recommendation models typically use machine learning algorithms, often based on collaborative filtering, content-based filtering, or hybrid approaches. These models analyze user-item interactions, content features, and other available data to make accurate and relevant recommendations. Examples of recommendation systems include Amazon's Personalized Recommendations, and the open-source library, LensKit."
+      },
+      {
+        "id": "2.15",
+        "headword": "Autonomous Driving",
+        "explanation": "Autonomous driving, also known as self-driving cars, is the technology that allows vehicles to navigate and operate without human input. This technology is used in various applications such as transportation, logistics, and ride-sharing services. Autonomous driving systems rely on a combination of sensors, such as cameras, LiDAR, and radar, to perceive the environment, and advanced machine learning algorithms, often based on neural networks, to process the sensory data and make real-time decisions. Examples of autonomous driving systems include Tesla's Autopilot, and Waymo's self-driving cars."
+      },
+      {
+        "id": "2.16",
+        "headword": "Robotics",
+        "explanation": "Robotics is the branch of technology that deals with the design, construction, operation, and application of robots. This technology is used in various applications such as manufacturing, healthcare, and space exploration. Robotics systems typically use a combination of sensors, actuators, and machine learning algorithms, often based on neural networks, to perceive the environment, make decisions, and perform tasks. Examples of robotic systems include Boston Dynamics' Atlas, and iRobot's Roomba."
+      },
+      {
+        "id": "2.17",
+        "headword": "Predictive Maintenance",
+        "explanation": "Predictive maintenance is the use of machine learning algorithms to predict when machinery or equipment is likely to fail, allowing for proactive maintenance and minimizing downtime. This technology is used in various applications such as manufacturing, energy production, and transportation. Predictive maintenance systems typically use data from sensors, such as vibration, temperature, and pressure sensors, to monitor the condition of machinery. Machine learning algorithms, often based on neural networks, analyze the sensor data to identify patterns and predict failures before they occur. Examples of predictive maintenance systems include IBM's Predictive Maintenance, and GE's Predix."
+      },
+      {
+        "id": "2.18",
+        "headword": "Fraud Detection",
+        "explanation": "Fraud detection is the process of identifying fraudulent activities, such as credit card fraud, insurance fraud, and financial fraud. This technology is used in various applications such as banking, e-commerce, and healthcare. Fraud detection systems typically use machine learning algorithms to analyze transaction data, user behavior, and other relevant information. These algorithms identify patterns and anomalies that may indicate fraudulent activity, allowing for timely detection and prevention of fraud. Examples of fraud detection systems include IBM's Fraud Detection for Payments, and Kount's Fraud Prevention Platform."
+      },
+      {
+        "id": "2.19",
+        "headword": "Supply Chain Optimization",
+        "explanation": "Supply chain optimization is the use of machine learning algorithms to optimize various aspects of the supply chain, such as inventory management, demand forecasting, and logistics. This technology is used in various applications such as manufacturing, retail, and logistics. Supply chain optimization systems typically use data from various sources, such as sales data, production data, and transportation data, to analyze the supply chain and identify areas for improvement. Machine learning algorithms, often based on neural networks, optimize the supply chain processes, reducing costs and improving efficiency. Examples of supply chain optimization systems include IBM's Supply Chain Insights, and Blue Yonder's Luminate Platform."
+      },
+      {
+        "id": "2.20",
+        "headword": "Healthcare Applications",
+        "explanation": "AI in healthcare is used in various applications such as medical imaging, diagnostics, patient monitoring, and drug discovery. AI models can analyze medical images, identify patterns, and assist in diagnosis. They can also predict patient outcomes, personalize treatment plans, and identify potential drug candidates. AI-driven healthcare applications include IBM Watson for Oncology, Google's AI for Dermatology, and AI-powered ECG analysis tools."
+      },
+      {
+        "id": "3.1",
+        "headword": "Training Datasets",
+        "explanation": "A collection of data used to train machine learning models. These datasets are meant to teach the model to recognize patterns and make predictions."
+      },
+      {
+        "id": "3.2",
+        "headword": "Validation Datasets",
+        "explanation": "A set of data used to evaluate the performance of a machine learning model during the training process. They help in tuning hyperparameters and assessing overfitting."
+      },
+      {
+        "id": "3.3",
+        "headword": "Test Datasets",
+        "explanation": "A separate set of data used to evaluate the final performance of a machine learning model. It is used to give an unbiased estimate of the model's performance on new, unseen data."
+      },
+      {
+        "id": "3.4",
+        "headword": "IMDB Movie Review Dataset",
+        "explanation": "A widely used dataset containing 50,000 movie reviews from the Internet Movie Database (IMDb), labeled as positive or negative, used for sentiment analysis and text classification tasks."
+      },
+      {
+        "id": "3.5",
+        "headword": "MNIST Dataset",
+        "explanation": "A large database of handwritten digits, containing 70,000 28x28 grayscale images of the digits 0 to 9, used for machine learning and image processing tasks."
+      },
+      {
+        "id": "3.6",
+        "headword": "CIFAR-10 Dataset",
+        "explanation": "A dataset of 60,000 32x32 color images in 10 classes, with 6,000 images per class, commonly used for computer vision tasks."
+      },
+      {
+        "id": "3.7",
+        "headword": "ImageNet",
+        "explanation": "A large-scale dataset used for visual object recognition research, containing 14 million images belonging to over 21,000 categories, often used for training and evaluating convolutional neural networks."
+      },
+      {
+        "id": "3.8",
+        "headword": "Reuters Corpus Volume I (RCV1)",
+        "explanation": "A large-scale text dataset containing over 800,000 documents from the Reuters newswire, used for text classification and information retrieval tasks."
+      },
+      {
+        "id": "3.9",
+        "headword": "PubMed Central Open Access Subset",
+        "explanation": "A dataset of biomedical and life sciences journal articles, used for natural language processing and machine learning in the biomedical field."
+      },
+      {
+        "id": "3.10",
+        "headword": "Wikitext Dataset",
+        "explanation": "A collection of extracts from Wikipedia, used for natural language processing tasks, such as language modeling and machine translation."
+      },
+      {
+        "id": "3.11",
+        "headword": "COCO Dataset (Common Objects in Context)",
+        "explanation": "A large-scale object detection, segmentation, and captioning dataset containing over 300,000 images, annotated with segmentation masks and human-generated captions."
+      },
+      {
+        "id": "3.12",
+        "headword": "EMNLP 2017 Shared Task on SemEval",
+        "explanation": "A dataset used for sentiment analysis and textual feature extraction, containing 10,000 sentences from Twitter, annotated with fine-grained sentiment labels."
+      },
+      {
+        "id": "3.13",
+        "headword": "The Toronto Book Corpus",
+        "explanation": "A large dataset of books from Project Gutenberg, used for training and evaluating language models and other natural language processing tasks."
+      },
+      {
+        "id": "3.14",
+        "headword": "Yelp Review Dataset",
+        "explanation": "A dataset of Yelp reviews, used for sentiment analysis, text classification, and natural language processing tasks in the area of business and customer reviews."
+      },
+      {
+        "id": "3.15",
+        "headword": "Amazon Review Dataset",
+        "explanation": "A dataset of customer reviews from the Amazon marketplace, used for sentiment analysis, product recommendation, and other natural language processing tasks."
+      },
+      {
+        "id": "3.16",
+        "headword": "Enron Email Dataset",
+        "explanation": "A dataset of emails from Enron employees, used for email classification, information extraction, and other natural language processing tasks in the area of email analysis."
+      },
+      {
+        "id": "3.17",
+        "headword": "Hugging Face Datasets",
+        "explanation": "A collection of pre-packaged datasets, including many popular datasets like MNIST, IMDB, and others, designed for easy access and use with the Hugging Face Transformers library."
+      },
+      {
+        "id": "3.18",
+        "headword": "Google AI Open Images Dataset",
+        "explanation": "A large-scale dataset for image understanding tasks, containing over 9 million images annotated with image-level labels, object bounding boxes, and image-level labels."
+      },
+      {
+        "id": "3.19",
+        "headword": "The PASCAL Visual Object Classes (VOC) Dataset",
+        "explanation": "A dataset of images annotated with object bounding boxes and object classes, used for object detection and image classification tasks in computer vision."
+      },
+      {
+        "id": "3.20",
+        "headword": "The Open Images Dataset",
+        "explanation": "A large-scale dataset for image understanding tasks, containing over 1.92 million images annotated with image-level labels, object bounding boxes, and image-level labels."
+      },
+      {"id":"4.1","headword":"Recurrent Neural Networks (RNN)","explanation":"Recurrent Neural Networks (RNNs) are a class of artificial neural networks capable of processing sequential data. They use their internal state to remember past information and are well-suited for tasks such as language modeling, speech recognition, and time series analysis."},
+      {"id":"4.2","headword":"Convolutional Neural Networks (CNN)","explanation":"Convolutional Neural Networks (CNNs) are a type of artificial neural network designed to handle image data. They use convolutional layers to automatically and adaptively learn spatial hierarchies of features from input images. CNNs are widely used in computer vision applications like image classification, object detection, and face recognition."},
+      {"id":"4.3","headword":"Long Short-Term Memory Networks (LSTM)","explanation":"Long Short-Term Memory Networks (LSTMs) are a special kind of RNNs designed to address the vanishing gradient problem and capture long-range dependencies. They use memory cells and three gates (forget, input, and output) to control the flow of information, making them effective for sequence prediction problems such as language modeling and machine translation."},
+      {"id":"4.4","headword":"Gated Recurrent Units (GRU)","explanation":"Gated Recurrent Units (GRUs) are a simplified version of LSTMs that share some similarities but require fewer parameters. They consist of a reset gate and an update gate, which regulate the flow of information, making them efficient for sequence learning tasks."},
+      {"id":"4.5","headword":"Transformer Models","explanation":"Transformer models are a type of neural network architecture that revolutionized the field of deep learning, particularly in natural language processing. They use self-attention mechanisms to process input data and have no recurrent or convolutional structure, enabling efficient parallelization and handling variable-length sequences. Transformer models have been successful in tasks like machine translation, text summarization, and image processing."},
+      {"id":"4.6","headword":"BERT: Bidirectional Encoder Representations from Transformers","explanation":"BERT is a transformer-based model pre-trained on large amounts of unlabeled text. It encodes both the left and right context of each word in a sentence, making it superior to unidirectional models like word2vec. BERT has been fine-tuned for various NLP tasks, achieving state-of-the-art performance in areas such as question-answering and sentiment analysis."},
+      {"id":"4.7","headword":"GPT: Generative Pre-trained Transformer","explanation":"GPT is a transformer-based language model that has been pre-trained to predict the next word in a sequence. It is unidirectional, processing text from left to right. The largest version of GPT, GPT-3, has 1750 billion parameters and can generate coherent text on a wide range of topics, making it useful for applications like machine translation and text generation."},
+      {"id":"4.8","headword":"T5: Text-To-Text Transfer Transformer","explanation":"T5 is a text-to-text transfer transformer that uses a transformer architecture to map input text to output text through a fixed-sized textual representation. It is pre-trained on a diverse dataset of instructions and fine-tuned for various NLP tasks, achieving competitive performance across different domains."},
+      {"id":"4.9","headword":"ViT: Vision Transformer","explanation":"ViT (Vision Transformer) is a transformer-based architecture designed for image classification tasks. It directly learns spatial hierarchies of visual features from input images by splitting the image into patches and processing them as sequences of tokens, making it an alternative to traditional CNNs."},
+      {"id":"4.10","headword":"Residual Networks (ResNet)","explanation":"Residual Networks (ResNets) are a type of deep neural network that introduce residual connections to allow the network to learn a residual function instead of learning the entire function. This helps in alleviating the vanishing gradient problem and allows the training of deeper networks, achieving state-of-the-art performance in image recognition tasks."},
+      {"id":"4.11","headword":"U-Net","explanation":"U-Net is a convolutional neural network architecture used for image segmentation. It is characterized by its symmetric encoder-decoder structure, where the contracting path (encoder) reduces the spatial dimensions while the expanding path (decoder) increases them, allowing for precise localization of objects in an image."},
+      {"id":"4.12","headword":"YOLO: You Only Look Once","explanation":"YOLO (You Only Look Once) is a single-stage object detection system that simultaneously performs object detection and localization on images. It is faster than two-stage detectors like Faster R-CNN but has lower accuracy. YOLO has been widely used in applications such as real-time object detection and video analysis."},
+      {"id":"4.13","headword":"Faster R-CNN: Region-Based Convolutional Networks","explanation":"Faster R-CNN is an improved version of R-CNN (Region-based Convolutional Networks) that uses a region proposal network (RPN) to generate high-quality region proposals. It is a two-stage object detection system that first generates proposals and then classifies them, achieving high accuracy at the cost of slower processing time."},
+      {"id":"4.14","headword":"MobileNets","explanation":"MobileNets are a family of efficient convolutional neural networks for mobile and edge devices. They use depthwise separable convolutions, which significantly reduce the number of operations and parameters, allowing for fast and lightweight models suitable for on-device deployment."},
+      {"id":"4.15","headword":"EfficientNet","explanation":"EfficientNet is a family of convolutional neural networks that scales its depth, width, and resolution efficiently to achieve better accuracy and efficiency. It is based on a compound scaling method that allows for the training of deeper, wider, and higher resolution models than previous networks, achieving state-of-the-art performance on various benchmarks."},
+      {"id":"4.16","headword":"Fully Connected Layers","explanation":"Fully connected layers, also known as dense layers, are a fundamental component of neural networks. They connect all neurons in the previous layer to all neurons in the current layer, allowing the network to learn complex patterns in the input data."},
+      {"id":"4.17","headword":"Activation Functions: Sigmoid","explanation":"The sigmoid activation function is a non-linear function that squashes its input between 0 and 1, making it suitable for binary classification tasks. It is defined as (1 / (1 + e^(-x))) and is often used in the output layer of neural networks."},
+      {"id":"4.18","headword":"Activation Functions: ReLU","explanation":"ReLU (Rectified Linear Unit) is a popular activation function that applies a threshold to the input by returning the input value for positive arguments and zero for negative arguments. It speeds up the training process and prevents the vanishing gradient problem, making it widely used in deep neural networks."},
+      {"id":"4.19","headword":"Activation Functions: Tanh","explanation":"The tanh (hyperbolic tangent) activation function outputs values between -1 and 1, making it suitable for problems with a range of output values, such as in regression tasks. It is defined as ((e^x - e^(-x)) / (e^x + e^(-x))) and is often used in the hidden layers of neural networks."},
+      {"id":"4.20","headword":"Pooling Layers: Max Pooling","explanation":"Max pooling is a widely used technique in convolutional neural networks to reduce the spatial dimensions of the input data while retaining the most important features. It selects the maximum value within a local region (window) of the input feature map and moves the window across the feature map, effectively down-sampling the input."},
+      {"id":"4.21","headword":"Pooling Layers: Average Pooling","explanation":"Average pooling is another technique used in convolutional neural networks to reduce the spatial dimensions of the input data. It computes the average value within a local region (window) of the input feature map and moves the window across the feature map, down-sampling the input and preserving the overall intensity of features."},
+      {"id":"5.1","headword":"Supervised Training", "explanation":"Supervised training is a machine learning technique where a model is trained on a dataset that contains labeled examples. The model learns to predict an output by studying the relationship between the input and the labels."},
+      {"id":"5.2","headword":"Unsupervised Training", "explanation":"Unsupervised training is a machine learning technique where a model is trained on a dataset that does not contain labeled examples. The model learns to find patterns or structures in the data without any guidance."},
+      {"id":"5.3","headword":"Reinforcement Learning", "explanation":"Reinforcement learning is an area of machine learning concerned with how agents ought to take actions in an environment to maximize some notion of cumulative reward."},
+      {"id":"5.4","headword":"Transfer Learning", "explanation":"Transfer learning is a machine learning method where a model trained on one task is used as the starting point for a different task."},
+      {"id":"5.5","headword":"Fine-Tuning", "explanation":"Fine-tuning is a machine learning technique where a pre-trained model is further trained on a specific task with a limited amount of data."},
+      {"id":"5.6","headword":"Low-Rank Adaptation (LoRA)", "explanation":"LoRA is a technique for adapting pre-trained models to new tasks by learning a low-rank update to the model weights, allowing for efficient fine-tuning with fewer parameters to update."},
+      {"id":"5.7","headword":"Data Augmentation", "explanation":"Data augmentation is a technique used to artificially expand the size of a training dataset by applying various transformations to the existing data."},
+      {"id":"5.8","headword":"Cross-Validation", "explanation":"Cross-validation is a technique for assessing how the results of a statistical analysis will generalize to an independent dataset."},
+      {"id":"5.9","headword":"Hyperparameter Tuning", "explanation":"Hyperparameter tuning is the process of selecting the best combination of hyperparameters for a machine learning model to optimize its performance."},
+      {"id":"5.10","headword":"Regularization Techniques", "explanation":"Regularization techniques are methods used to prevent overfitting in machine learning models by penalizing the complexity of the model."},
+      {"id":"5.11","headword":"Online Learning", "explanation":"Online learning is a type of machine learning where the model is updated incrementally after each training example, making it suitable for large and streaming data."},
+      {"id":"5.12","headword":"Batch Learning", "explanation":"Batch learning is a type of machine learning where the model is trained on a batch of data at once, updating the model parameters after processing the entire batch."},
+      {"id":"5.13","headword":"Meta-Learning", "explanation":"Meta-learning, also known as learning to learn, is an area of machine learning that focuses on enabling machines to learn from past learning experiences and improve their learning process."},
+      {"id":"5.14","headword":"Bayesian Learning", "explanation":"Bayesian learning is a machine learning method that uses Bayesian statistics to update the probability distribution of an unknown quantity based on observed data."},
+      {"id":"5.15","headword":"Evolutionary Computation", "explanation":"Evolutionary computation is a type of machine learning inspired by biological evolution, using techniques such as genetic algorithms to solve optimization and search problems."},
+      {"id":"5.16","headword":"Online and Batch Normalization", "explanation":"Normalization is a technique used to stabilize the learning process and reduce the variance of the model by scaling the inputs or outputs to have a mean of zero and a standard deviation of one."},
+      {"id":"5.17","headword":"Gradient Descent", "explanation":"Gradient descent is an optimization algorithm used to minimize a function by following the negative of its gradient, which is the direction of steepest descent."},
+      {"id":"5.18","headword":"Stochastic Gradient Descent (SGD)", "explanation":"Stochastic gradient descent is a variant of gradient descent that updates the model parameters after each training example, making it suitable for large datasets and online learning."},
+      {"id":"5.19","headword":"Adam Optimizer", "explanation":"Adam is an optimization algorithm used in training deep learning models, which combines the advantages of adaptive gradient methods and root mean square propagation."},
+      {"id":"5.20","headword":"RMSProp", "explanation":"RMSProp is an optimization algorithm used in training deep learning models, which adjusts the learning rate based on the moving average of the squared gradients, helping to stabilize the learning process."},
+      {"id": "6.1", "headword": "Accuracy", "explanation": "A measure of how often a model's predictions agree with the true labels in a dataset." },
+      {"id": "6.2", "headword": "Precision", "explanation": "The proportion of positive predictions that were actually correct." },
+      {"id": "6.3", "headword": "Recall", "explanation": "The proportion of actual positives that were correctly predicted as positives." },
+      {"id": "6.4", "headword": "F1 Score", "explanation": "The harmonic mean of precision and recall, providing a single score that balances these two metrics." },
+      {"id": "6.5", "headword": "ROC-AUC Curve", "explanation": "A graphical representation of the performance of a classification model at all possible classification thresholds, used to evaluate the model's ability to distinguish between classes." },
+      {"id": "6.6", "headword": "Confusion Matrix", "explanation": "A table that shows the performance of a classification model on a test dataset, with actual labels on one axis and predicted labels on the other." },
+      {"id": "6.7", "headword": "Mean Squared Error (MSE)", "explanation": "The average squared difference between predicted values and actual values in a dataset." },
+      {"id": "6.8", "headword": "Root Mean Squared Error (RMSE)", "explanation": "The square root of the mean squared error, providing a measure of the standard deviation of the prediction errors." },
+      {"id": "6.9", "headword": "Mean Absolute Error (MAE)", "explanation": "The average of the absolute differences between predicted values and actual values in a dataset." },
+      {"id": "6.10", "headword": "Cross-Entropy Loss", "explanation": "A measure of the difference between two probability distributions, often used as a loss function in training classification models." },
+      {"id": "6.11", "headword": "Intersection over Union (IoU)", "explanation": "A measure of the overlap between two objects, used in evaluating object detection models." },
+      {"id": "6.12", "headword": "Mean Intersection over Union (mIoU)", "explanation": "The average IoU over all classes in a dataset, used to evaluate the performance of semantic segmentation models." },
+      {"id": "6.13", "headword": "Top-K Accuracy", "explanation": "The proportion of instances where the true label is among the top k predicted labels." },
+      {"id": "6.14", "headword": "BLEU Score", "explanation": "A metric used to evaluate the quality of machine-translated text, based on n-gram overlap with the reference translations." },
+      {"id": "6.15", "headword": "METEOR", "explanation": "A metric that measures the similarity between two sentences based on the meaning of the words and their arrangement, considering synonymy, antonymy, and paraphrasing." },
+      {"id": "6.16", "headword": "ROUGE Score", "explanation": "A metric used to evaluate the quality of automatically generated summaries, based on the overlap in n-grams with human-generated summaries." },
+      {"id": "6.17", "headword": "CIDEr", "explanation": "A metric that measures the similarity between two texts by counting common information, used to evaluate the quality of automatically generated summaries." },
+      {"id": "6.18", "headword": "SPICE", "explanation": "A metric used to evaluate the quality of automatically generated summaries, based on scene understanding and graph-based matching." },
+      {"id": "6.19", "headword": "Pearson Correlation Coefficient", "explanation": "A measure of the linear correlation between two variables, ranging from -1 (perfect negative correlation) to 1 (perfect positive correlation)." },
+      {"id": "6.20", "headword": "Spearman's Rank Correlation Coefficient", "explanation": "A non-parametric measure of rank correlation, used to assess the strength of the relationship between two variables measured on an ordinal scale." },
+      {"id":"7.1", "headword":"GPT-3", "explanation":"GPT-3 is a large language model developed by OpenAI. It is a transformer-based model that can generate human-like text, answer questions, and perform other natural language processing tasks."},
+      {"id":"7.2", "headword":"BERT", "explanation":"BERT is a transformer-based pre-trained language model developed by Google. It is designed to understand the context of words and phrases by jointly conditioning on all of their surrounding text."},
+      {"id":"7.3", "headword":"ChatGPT", "explanation":"ChatGPT is an AI-powered chatbot based on the GPT-3.5 model developed by OpenAI. It is designed to have conversations with humans and provides helpful and informative responses to a wide range of questions."},
+      {"id":"7.4", "headword":"LLAMA", "explanation":"LLAMA is a language and vision model developed by Facebook AI Research. It is a multimodal transformer-based model that can perform various tasks such as image captioning, visual question answering, and more."},
+      {"id":"7.5", "headword":"Mistral", "explanation":"Mistral is a multilingual AI model developed by Microsoft. It is designed to understand and generate text in multiple languages and can be used for tasks such as machine translation, language understanding, and more."},
+      {"id":"7.6", "headword":"QWen", "explanation":"QWen is a question-answering model developed by Google AI. It is designed to understand natural language questions and provide accurate and informative answers based on the context of the questions."},
+      {"id":"7.7", "headword":"ChatGLM", "explanation":"ChatGLM is a Chinese conversational AI model developed by Tsinghua University KEG Lab and Zhipu AI. It is designed to have conversations with humans and provides helpful and informative responses to a wide range of questions."},
+      {"id":"7.8", "headword":"BigBird", "explanation":"BigBird is a long-range transformer model developed by Google AI. It is designed to handle large and diverse datasets and can be used for tasks such as text classification, question-answering, and more."},
+      {"id":"7.9", "headword":"DeBERTa", "explanation":"DeBERTa is a decoding-enhanced BERT model developed by the University of Tokyo and Preferred Networks. It is designed to improve the performance of natural language processing tasks by incorporating decoding enhancement techniques."},
+      {"id":"7.10", "headword":"FLAN", "explanation":"FLAN is a foundation language model developed by Google AI. It is designed to be used as a general-purpose language model for various natural language processing tasks such as text generation, machine translation, and more."},
+      {"id":"7.11", "headword":"GLM", "explanation":"GLM is a general language model developed by the KEG Lab at Tsinghua University. It is designed to be used for various natural language processing tasks such as text generation, machine translation, and more."},
+      {"id":"7.12", "headword":"T0", "explanation":"T0 is a self-supervised pretraining model for task-oriented dialogue systems developed by Google AI. It is designed to be used for tasks such as machine translation, text summarization, and more."},
+      {"id":"7.13", "headword":"Reformer", "explanation":"Reformer is an efficient transformer model developed by Google AI. It is designed to handle large amounts of data and can be used for tasks such as text classification, question-answering, and more."},
+      {"id":"7.14", "headword":"CodeGeeX", "explanation":"CodeGeeX is a code generation model developed by Tsinghua University KEG Lab and Zhipu AI. It is designed to generate code in various programming languages based on natural language input."},
+      {"id":"7.15", "headword":"KEG", "explanation":"KEG is a knowledge-enhanced generative model developed by Tsinghua University KEG Lab and Zhipu AI. It is designed to generate coherent and informative text by incorporating knowledge from external sources."},
+      {"id":"7.16", "headword":"LLaMA", "explanation":"LLaMA is a large language model developed by Meta AI Research. It is designed to be used for various natural language processing tasks such as text generation, machine translation, and more."},
+      {"id":"7.17", "headword":"Whisper", "explanation":"Whisper is a speech recognition model developed by OpenAI. It is designed to transcribe and translate speech in over 100 languages and can be used for tasks such as automatic speech recognition, language translation, and more."},
+      {"id":"7.18", "headword":"CLIP", "explanation":"CLIP is a contrastive language-image pre-trained model developed by Google AI. It is designed to understand and generate text and images by learning from large amounts of text and image data."},
+      {"id":"7.19", "headword":"DALL-E", "explanation":"DALL-E is an image synthesis model developed by OpenAI. It is designed to generate new images by combining and modifying existing ones and can be used for tasks such as image generation, style transfer, and more."},
+      {"id":"7.20", "headword":"OPT", "explanation":"OPT is an optimized transformer model developed by OpenAI. It is designed to handle large amounts of data and can be used for tasks such as text classification, question-answering, and more."},
+      {
+        "id": "8.1",
+        "headword": "PyTorch",
+        "explanation": "PyTorch is an open-source machine learning library developed by Facebook's AI Research lab. It is widely used for applications in computer vision and natural language processing. PyTorch provides automatic differentiation, which simplifies the process of training neural networks. It also supports dynamic neural networks through its tensor computation framework, which can be executed on GPUs, making it highly efficient for deep learning tasks."
+      },
+      {
+        "id": "8.2",
+        "headword": "TensorFlow",
+        "explanation": "TensorFlow is an end-to-end open-source machine learning platform developed by Google Brain. It allows developers to define, train, and deploy machine learning models on a variety of platforms, including CPUs, GPUs, and TPUs. TensorFlow offers high-level APIs, making it accessible for both beginners and experts. It also supports distributed training, which enables training large models across multiple machines."
+      },
+      {
+        "id": "8.3",
+        "headword": "Keras",
+        "explanation": "Keras is a high-level neural networks API that runs on top of TensorFlow, Microsoft's CNTK, or Theano. It was designed with a focus on user-friendliness, modularity, and extensibility. Keras allows developers to build and train powerful deep learning models with just a few lines of code. Its intuitive and straightforward API makes it an excellent choice for beginners and experienced practitioners alike."
+      },
+      {
+        "id": "8.4",
+        "headword": "NumPy",
+        "explanation": "NumPy is a fundamental package for scientific computing with Python. It provides support for large, multi-dimensional arrays and matrices, along with a large library of mathematical functions to operate on these arrays. NumPy is crucial for machine learning as it serves as the foundation for many other libraries, such as SciPy and pandas, and is used for efficient data manipulation and numerical computing in AI development."
+      },
+      {
+        "id": "8.5",
+        "headword": "pandas",
+        "explanation": "pandas is a powerful library for data manipulation and analysis in Python. It provides data structures such as DataFrame, which is a tabular structure with rows and columns similar to a spreadsheet. pandas is widely used for data preprocessing, cleaning, and exploration, which are essential steps in machine learning pipelines. It simplifies data handling tasks, making it easier to prepare data for training machine learning models."
+      },
+      {
+        "id": "8.6",
+        "headword": "Matplotlib",
+        "explanation": "Matplotlib is a plotting library for Python that provides a range of visualization tools to create static, animated, and interactive plots. It is widely used for visualizing data, which is crucial for understanding the performance of machine learning models and for communicating results. Matplotlib is highly customizable and supports a wide variety of plot types, making it an indispensable tool for data visualization in AI development."
+      },
+      {
+        "id": "8.7",
+        "headword": "scikit-learn",
+        "explanation": "scikit-learn is a machine learning library for Python that provides a wide range of algorithms for classification, regression, clustering, dimensionality reduction, and model selection. It is built on top of SciPy and NumPy and offers a simple and consistent API for implementing machine learning models. scikit-learn is widely used for developing and evaluating machine learning models, making it a valuable resource for AI practitioners."
+      },
+      {
+        "id": "8.8",
+        "headword": "JAX",
+        "explanation": "JAX is a high-performance library for numerical computing and autodiff, developed by Google Brain. It provides efficient operations on multidimensional arrays called JAX arrays, which can be used for machine learning tasks. JAX is known for its speed and flexibility, offering a powerful alternative to other Python-based libraries for deep learning. Its seamless integration with XLA (Accelerated Linear Algebra) enables efficient execution on GPUs and TPUs."
+      },
+      {
+        "id": "8.9",
+        "headword": "ONNX",
+        "explanation": "ONNX is an open-source format for representing deep learning models. It enables interoperability between different deep learning frameworks, allowing developers to move models between TensorFlow, PyTorch, CNTK, and other frameworks. ONNX simplifies the deployment of models across different platforms and accelerates the development process by enabling the reuse of models trained in one framework in another."
+      },
+      {
+        "id": "8.10",
+        "headword": "CuDNN",
+        "explanation": "CuDNN is a library for deep neural network training and inference on NVIDIA GPUs. It provides highly optimized routines for routines such as convolutions and activation functions, which are crucial components of deep learning models. Using CuDNN can significantly speed up the training process of neural networks, making it an essential tool for AI development on GPU-accelerated systems."
+      },
+      {
+        "id": "8.11",
+        "headword": "NVIDIA CUDA",
+        "explanation": "CUDA is a parallel computing platform and programming model developed by NVIDIA. It enables developers to utilize the power of GPUs for general-purpose computing, including machine learning tasks. CUDA provides a set of programming interfaces and tools that simplify the process of writing efficient GPU-accelerated code. It is widely used for accelerating the training and inference of deep learning models."
+      },
+      {
+        "id": "8.12",
+        "headword": "Google Colab",
+        "explanation": "Google Colab is a free, open-source platform that allows developers to write and execute Python code. It provides access to GPU accelerators and TPU v2 and v3 chips for free, making it an excellent choice for AI development. Colab also offers collaborative editing features, allowing multiple users to work on the same notebook. It is widely used for research and educational purposes due to its ease of use and powerful computing resources."
+      },
+      {
+        "id": "8.13",
+        "headword": "AWS SageMaker",
+        "explanation": "AWS SageMaker is a fully-managed service provided by Amazon Web Services for building, training, and deploying machine learning models. It supports various frameworks, including TensorFlow, PyTorch, and Scikit-learn, and offers features such as automated model tuning, real-time inference, and Jupyter notebooks for development. SageMaker simplifies the machine learning workflow and enables developers to focus on building models rather than managing infrastructure."
+      },
+      {
+        "id": "8.14",
+        "headword": "Microsoft Azure ML",
+        "explanation": "Microsoft Azure Machine Learning is a cloud-based service that allows developers to build, train, and deploy machine learning models. It provides a user-friendly web-based studio, automated machine learning capabilities, and integration with various data sources. Azure ML simplifies the end-to-end machine learning workflow, making it accessible for developers of all skill levels."
+      },
+      {
+        "id": "8.15",
+        "headword": "IBM Watson Studio",
+        "explanation": "IBM Watson Studio is an integrated data science and machine learning platform that enables developers to build, train, and deploy AI models. It supports various data sources and machine learning frameworks, including TensorFlow and Python. Watson Studio offers features such as Jupyter notebooks, automated model deployment, and integration with other IBM services, making it a comprehensive tool for AI development."
+      },
+      {
+        "id": "8.16",
+        "headword": "Hugging Face Transformers",
+        "explanation": "Hugging Face Transformers is a popular library for state-of-the-art natural language processing models. It provides pre-trained transformer models, such as BERT and GPT, and simplifies the process of fine-tuning and deploying these models on various platforms. The library also includes tools for model evaluation, visualization, and integration with other popular machine learning libraries like PyTorch and TensorFlow."
+      },
+      {
+        "id": "8.17",
+        "headword": "FastAI",
+        "explanation": "FastAI is a library for deep learning that provides a simplified and intuitive API for building and training machine learning models. It is built on top of PyTorch and includes pre-built models, data loaders, and training loops, which accelerate the development process. FastAI is an excellent choice for developers looking to quickly prototype and deploy deep learning solutions without having to deal with the complexity of low-level libraries."
+      },
+      {
+        "id": "8.18",
+        "headword": "TensorFlow.js",
+        "explanation": "TensorFlow.js is a library for running TensorFlow on the web. It enables developers to deploy machine learning models directly in the browser, allowing for applications such as real-time image and speech recognition, natural language processing, and more. TensorFlow.js provides a lightweight version of TensorFlow, making it possible to run AI applications without the need for a server-side connection."
+      },
+      {
+        "id": "8.19",
+        "headword": "Apple Core ML",
+        "explanation": "Apple Core ML is a machine learning framework for iOS and macOS platforms. It allows developers to integrate pre-trained models, such as neural networks and support vector machines, into their applications. Core ML provides efficient model inference and on-device machine learning capabilities, enabling the creation of powerful AI-driven apps for Apple devices."
+      },
+      {
+        "id": "8.20",
+        "headword": "TFLite",
+        "explanation": "TensorFlow Lite is a lightweight solution for deploying TensorFlow models on mobile and embedded devices. It allows developers to convert TensorFlow models into an efficient format that can run on Android and iOS devices, as well as edge devices like Raspberry Pi. TFLite simplifies the deployment process and offers features such as just-in-time compilation and optimized kernels for better performance on resource-constrained platforms."
+      }
+    ]
+}
